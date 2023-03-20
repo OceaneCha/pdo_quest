@@ -30,7 +30,7 @@ $friends = $statement->fetchAll(PDO::FETCH_OBJ);
         <br />
         <form action="addFriend.php" method="post">
             <label for="firstname">First Name</label>
-            <input name="firstname" type="text" placeholder="First Name" maxlength="45">
+            <input name="firstname" type="text" placeholder="First Name" maxlength="45" required>
 
             <label for="lastname">Last Name</label>
             <input name="lastname" type="text" placeholder="Last Name" maxlength="45" required>
